@@ -1,0 +1,67 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--grey);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--green);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--green);
+}
+
+
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.icon-bars {
+    background-color: var(--white);
+    width: 22px;
+    height: 3px;
+    border-radius: 5px;
+}
+
+.sectionThree__carousel .swiper-horizontal>.swiper-pagination-bullets,
+.sectionThree__carousel .swiper-pagination-bullets.swiper-pagination-horizontal,
+.sectionThree__carousel .swiper-pagination-custom,
+.sectionThree__carousel .swiper-pagination-fraction {
+    bottom: -40px;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--green) !important;
+}
+
+.sectionFour__carousel .swiper-horizontal>.swiper-pagination-bullets,
+.sectionFour__carousel .swiper-pagination-bullets.swiper-pagination-horizontal,
+.sectionFour__carousel .swiper-pagination-custom,
+.sectionFour__carousel .swiper-pagination-fraction {
+    bottom: -20px;
+}
+
+.sectionFive__carousel .swiper-horizontal>.swiper-pagination-bullets,
+.sectionFive__carousel .swiper-pagination-bullets.swiper-pagination-horizontal,
+.sectionFive__carousel .swiper-pagination-custom,
+.sectionFive__carousel .swiper-pagination-fraction {
+    bottom: -40px;
+}
+
+.sectionSix__form--radio #male:checked~label[for="male"] {
+    color: var(--green);
+}
+
+.sectionSix__form--radio #female:checked~label[for="female"] {
+    color: var(--green);
+}

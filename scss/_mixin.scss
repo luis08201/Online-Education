@@ -1,0 +1,14 @@
+@import 'fonts';
+
+@mixin section-heading {
+    color: var(--white);
+    font-family: secondfont;
+}
+
+@mixin section-heading-span{
+    color: var(--green);
+}
+
+@mixin mb-25 {
+    margin-bottom: 25px;
+}
