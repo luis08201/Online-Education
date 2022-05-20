@@ -152,6 +152,7 @@ option {
 body {
   font-family: primaryFont;
   background-color: var(--dark-grey);
+  overflow-x: hidden;
 }
 
 /* HEADER */
