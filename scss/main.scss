@@ -7,7 +7,6 @@
 body {
     font-family: primaryFont;
     background-color: var(--dark-grey);
-    overflow-x:hidden;
 }
 
 /* HEADER */
@@ -48,6 +47,7 @@ body {
 
     &__home {
         margin-top: 100px;
+        overflow-x: hidden;
         &--description {
             gap: 20px;
             margin-bottom: 30px;
@@ -125,7 +125,7 @@ body {
 
 .sectionTwo {
     margin-bottom: 36px;
-
+    overflow-x: hidden;
     &__description {
         &--secondheading {
             color: var(--white);
@@ -362,6 +362,7 @@ body {
 /* SECTION 6 */
 
 .sectionSix{
+    overflow-x: hidden;
     &__header {
         @include mb-25;
     

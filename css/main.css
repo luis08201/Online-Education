@@ -152,7 +152,6 @@ option {
 body {
   font-family: primaryFont;
   background-color: var(--dark-grey);
-  overflow-x: hidden;
 }
 
 /* HEADER */
@@ -189,6 +188,7 @@ body {
 
 .header__home {
   margin-top: 100px;
+  overflow-x: hidden;
 }
 
 .header__home--description {
@@ -266,6 +266,7 @@ body {
 /* SECTION TWO */
 .sectionTwo {
   margin-bottom: 36px;
+  overflow-x: hidden;
 }
 
 .sectionTwo__description--secondheading {
@@ -503,6 +504,10 @@ body {
 }
 
 /* SECTION 6 */
+.sectionSix {
+  overflow-x: hidden;
+}
+
 .sectionSix__header {
   margin-bottom: 25px;
 }
